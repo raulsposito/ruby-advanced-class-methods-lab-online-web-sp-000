@@ -13,8 +13,7 @@ class Song
   def self.create
     song = self.new 
     song.name = name 
-    @save 
-    return self 
+    song
   end
   
 end
